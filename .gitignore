@@ -1,0 +1,69 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+**/node_modules
+# roadhog-api-doc ignore
+/src/utils/request-temp.js
+_roadhog-api-doc
+
+# production
+/dist
+/.vscode
+
+# misc
+.DS_Store
+npm-debug.log*
+yarn-error.log
+
+/coverage
+.idea
+yarn.lock
+package-lock.json
+*bak
+.vscode
+
+# visual studio code
+.history
+*.log
+functions/*
+.temp/**
+
+# umi
+.umi
+.umi-production
+
+# screenshot
+screenshot
+.firebase
+.eslintcache
+
+build
+
+.editorconfig
+.eslintignore
+.eslintrc.js
+.prettierignore
+.prettierrc.js
+.stylelintrc.js
+
+*.pyc
+__pycache__
+
+output
+
+qr/client/static/gulp
+qr/client/templates/gulp
+qr/client/templates/yarn
+qr/client/templates/static/yarn
+qr/client/templates/static/gulp
+qr/client/static/js/ckeditor
+qr/client/templates/static/js/ckeditor
+qr/client/templates/static/ckeditor
+
+.ven3
+qr/client/static/css/
+qr/client/static/js
+
+.qiniu_pythonsdk_hostscache.json
+image/
+proxy_auth_plugin.zip
